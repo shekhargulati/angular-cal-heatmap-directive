@@ -1,0 +1,33 @@
+{
+  "name": "angular-cal-heatmap-directive",
+  "version": "1.0",
+  "dependencies": {
+    "angular": "~1.2.0",
+    "cal-heatmap": "~3.4.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.0",
+    "angular-scenario": "~1.2.0"
+  },
+  "homepage":"https://github.com/shekhargulati/angular-cal-heatmap-directive",
+  "authors": [
+    "Shekhar Gulati (shekhargulati84@gmail.com)"
+  ],
+  "description": "Angularjs directive to render cal-heatmap",
+  "main": "app/scripts/cal-heatmap.js",
+  "keywords": [
+    "cal-heatmap",
+    "directive",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test/components",
+    "test",
+    "tests"
+  ]
+}
+}
