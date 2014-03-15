@@ -20,5 +20,9 @@
   "smarttabs": true,
   "globals": {
     "angular": false
-  }
+  },
+  "predef":[
+    "angular",
+    "CalHeatMap"
+  ]
 }
