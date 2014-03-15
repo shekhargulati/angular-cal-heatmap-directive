@@ -24,7 +24,7 @@ Create an index.html as shown below.
 <script type="text/javascript" src="bower_components/angular/angular.js"></script>
 <script type="text/javascript" src="bower_components/d3/d3.js"></script>
 <script type="text/javascript" src="bower_components/cal-heatmap/cal-heatmap.js"></script>
-<script type="text/javascript" src="bower_components/angular-cal-heatmap-directive/app/scripts/calHeatmap.js"></script>
+<script type="text/javascript" src="bower_components/angular-cal-heatmap-directive/dist/1.3.0/calHeatmap.min.js"></script>
 <script type="text/javascript" src="app.js"></script>
 </body>
 
@@ -54,7 +54,7 @@ To add your own configuration, you can use config attribute as shown below.
 <script type="text/javascript" src="bower_components/angular/angular.js"></script>
 <script type="text/javascript" src="bower_components/d3/d3.js"></script>
 <script type="text/javascript" src="bower_components/cal-heatmap/cal-heatmap.js"></script>
-<script type="text/javascript" src="bower_components/angular-cal-heatmap-directive/app/scripts/calHeatmap.js"></script>
+<script type="text/javascript" src="bower_components/angular-cal-heatmap-directive/dist/1.3.0/calHeatmap.min.js"></script>
 <script type="text/javascript" src="app.js"></script>
 </body>
 
