@@ -1,6 +1,6 @@
 {
   "name": "angular-cal-heatmap-directive",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "dependencies": {
     "angular": "~1.2.0",
     "cal-heatmap": "~3.4.0"
