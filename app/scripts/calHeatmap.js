@@ -21,7 +21,7 @@ angular.module('calHeatmap', []).directive('calHeatmap', function () {
         cal.init(defaults);
     }
     return {
-        template: '<div id="cal-heatmap" config="config"></div>',
+        template: '<div class="cal-heatmap" config="config"></div>',
         restrict: 'E',
         link: link,
         scope: {
