@@ -14,7 +14,7 @@
     "Shekhar Gulati (shekhargulati84@gmail.com)"
   ],
   "description": "Angularjs directive to render cal-heatmap",
-  "main": "app/scripts/cal-heatmap.js",
+  "main": "app/scripts/calHeatmap.js",
   "keywords": [
     "cal-heatmap",
     "directive",
