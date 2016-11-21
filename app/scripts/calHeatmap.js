@@ -16,16 +16,17 @@ angular.module('calHeatmap', [])
                 cellSize: !config ? 25 : config.cellSize ? config.cellSize : 25,
                 range: !config ? 3 : config.range ? config.range : 3,
                 domainGutter: !config ? 10 : config.domainGutter ? config.domainGutter : 10,
-                legend: !config ? [2, 4, 6, 8, 10] : config.legend ? config.legend : [2, 4, 6, 8, 10],
-                displayLegend: config.displayLegend || true,
-                legendCellSize: config.legendCellSize || 10,
-                legendCellPadding: config.legendCellPadding || 2,
-                legendMargin: config.legendMargin || [10, 0, 0, 0],
-                legendVerticalPosition: config.legendVerticalPosition || 'bottom',
-                legendHorizontalPosition: config.legendHorizontalPosition || 'left',
-                legendOrientation: config.legendOrientation || 'horizontal',
-                legendColors: config.legendColors || null,
+                legend: !config ? [10, 20, 30, 40] : config.legend ? config.legend : [10, 20, 30, 40],
+                displayLegend: !config ? true : config.displayLegend || true,
+                legendCellSize: !config ? 10 : config.legendCellSize || 10,
+                legendCellPadding: !config ? 2 : config.legendCellPadding || 2,
+                legendMargin: !config ? [10, 0, 0, 0] : config.legendMargin || [10, 0, 0, 0],
+                legendVerticalPosition: !config ? 'bottom' : config.legendVerticalPosition || 'bottom',
+                legendHorizontalPosition: !config ? 'left' : config.legendHorizontalPosition || 'left',
+                legendOrientation: !config ? 'horizontal' : config.legendOrientation || 'horizontal',
+                legendColors: !config ? null : config.legendColors || null,
                 itemName: !config ? 'item' : config.itemName ? config.itemName : 'item',
+                data: !config ? null : config.data
             });
 
             scope.$watch("config.displayLegend", function(newValue, oldValue) {
@@ -38,7 +39,8 @@ angular.module('calHeatmap', [])
 
             scope.$watch("config.data", function(newValue, oldValue) {
                 cal.update(newValue);
-            })
+            });
+
         }
 
         return {
