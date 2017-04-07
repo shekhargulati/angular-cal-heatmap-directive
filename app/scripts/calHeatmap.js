@@ -25,8 +25,7 @@ angular.module('calHeatmap', [])
                 legendHorizontalPosition: !config ? 'left' : config.legendHorizontalPosition || 'left',
                 legendOrientation: !config ? 'horizontal' : config.legendOrientation || 'horizontal',
                 legendColors: !config ? null : config.legendColors || null,
-                itemName: !config ? 'item' : config.itemName ? config.itemName : 'item',
-                data: !config ? null : config.data
+                itemName: !config ? 'item' : config.itemName ? config.itemName : 'item'
             });
 
             scope.$watch("config.displayLegend", function(newValue, oldValue) {
